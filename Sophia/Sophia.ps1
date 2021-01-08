@@ -146,11 +146,11 @@ WindowsWelcomeExperience -Hide
 
 # Get tip, trick, and suggestions as you use Windows (current user only) (default value)
 # Получать советы, подсказки и рекомендации при использованию Windows (только для текущего пользователя) (значение по умолчанию)
-WindowsTips -Enable
+# WindowsTips -Enable
 
 # Do not get tip, trick, and suggestions as you use Windows (current user only)
 # Не получать советы, подсказки и рекомендации при использованию Windows (только для текущего пользователя)
-# WindowsTips -Disable
+WindowsTips -Disable
 
 # Hide suggested content in the Settings app (current user only)
 # Скрывать рекомендуемое содержимое в приложении "Параметры" (только для текущего пользователя)
@@ -372,11 +372,11 @@ UnpinTaskbarEdgeStore
 
 # View the Control Panel icons by: large icons (current user only)
 # Просмотр иконок Панели управления как: крупные значки (только для текущего пользователя)
-ControlPanelView -LargeIcons
+# ControlPanelView -LargeIcons
 
 # View the Control Panel icons by: category (current user only) (default value)
 # Просмотр значки Панели управления как "категория" (только для текущего пользователя) (значение по умолчанию)
-# ControlPanelView -Category
+ControlPanelView -Category
 
 # Set the Windows mode color scheme to the dark (current user only)
 # Установить цвет режима Windows по умолчанию на темный (только для текущего пользователя)
@@ -506,11 +506,11 @@ StorageSenseRecycleBin -Enable
 
 # Disable hibernation if the device is not a laptop
 # Отключить режим гибернации, если устройство не является ноутбуком
-Hibernate -Disable
+# Hibernate -Disable
 
 # Enable hibernate (default value)
 # Включить режим гибернации (значение по умолчанию)
-# Hibernate -Enable
+Hibernate -Enable
 
 # Change the %TEMP% environment variable path to "%SystemDrive%\Temp" (both machine-wide, and for the current user)
 # Изменить путь переменной среды для %TEMP% на "%SystemDrive%\Temp" (для всех пользователей)
@@ -610,11 +610,11 @@ BackgroundUWPApps -Disable
 
 # Set the power management scheme on "High performance" if device is a desktop
 # Установить схему управления питанием на "Высокая производительность", если устройство является стационарным ПК
-PowerManagementScheme -High
+# PowerManagementScheme -High
 
 # Set the power management scheme on "Balanced" (default value)
 # Установить схему управления питанием на "Сбалансированная" (значение по умолчанию)
-# PowerManagementScheme -Balanced
+PowerManagementScheme -Balanced
 
 # Use latest installed .NET runtime for all apps
 # Использовать последнюю установленную среду выполнения .NET для всех приложений
@@ -775,11 +775,11 @@ SmartActiveHours -Enable
 
 # Restart this device as soon as possible when a restart is required to install an update
 # Перезапускать это устройство как можно быстрее, если для установки обновления требуется перезагрузка
-DeviceRestartAfterUpdate -Enable
+# DeviceRestartAfterUpdate -Enable
 
 # Do not restart this device as soon as possible when a restart is required to install an update (default value)
 # Не перезапуск этого устройства как можно быстрее, если для установки обновления требуется перезагрузка (значение по умолчанию)
-# DeviceRestartAfterUpdate -Disable
+DeviceRestartAfterUpdate -Disable
 #endregion System
 
 #region WSL
@@ -790,7 +790,7 @@ DeviceRestartAfterUpdate -Enable
 	https://github.com/farag2/Windows-10-Sophia-Script/issues/43
 	https://github.com/microsoft/WSL/issues/5437
 #>
-# WSL -Enable
+WSL -Enable
 
 # Uninstall the Windows Subsystem for Linux (WSL)
 # Удалить подсистему Windows для Linux (WSL)
@@ -1107,11 +1107,11 @@ PowerShellModulesLogging -Enable
 
 # Enable logging for all PowerShell scripts input to the Windows PowerShell event log
 # Включить ведение журнала для всех вводимых сценариев PowerShell в журнале событий Windows PowerShell
-PowerShellScriptsLogging -Enable
+# PowerShellScriptsLogging -Enable
 
 # Disable logging for all PowerShell scripts input to the Windows PowerShell event log (default value)
 # Выключить ведение журнала для всех вводимых сценариев PowerShell в журнале событий Windows PowerShell (значение по умолчанию)
-# PowerShellScriptsLogging -Disable
+PowerShellScriptsLogging -Disable
 
 # Disable apps and files checking within Microsofot Defender SmartScreen
 # Выключить проверку приложений и файлов фильтром SmartScreen в Microsoft Defender
